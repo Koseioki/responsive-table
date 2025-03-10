@@ -9,9 +9,10 @@
 </head>
 
 <body>
-
+<h1>Responsive table</h1>
+<div class="table-wrapper">
   <table>
-    <caption>
+    <caption lang="da">
       Produktsammenligneren
     </caption>
     <thead>
@@ -19,91 +20,40 @@
         <td class="row-header"></td>
         <th>Card 1</th>
         <th>Card 2</th>
-        <th>Card 3</th>
+        <th class="third-column">Card 3</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <th scope="row" class="row-header">Price</th>
-        <td>$10</td>
-        <td>$20</td>
-        <td>$30</td>
+        <td><span class="narrow-th" aria-hidden="true">Price: </span>$10</td>
+        <td><span class="narrow-th" aria-hidden="true">Price: </span>$20</td>
+        <td class="third-column"><span class="narrow-th" aria-hidden="true">Price: </span>$30</td>
       </tr>
       <tr>
         <th scope="row" class="row-header">Is this card cool?</th>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>Yes</td>
+        <td><span class="narrow-th" aria-hidden="true">Is this card cool?: </span>Yes</td>
+        <td><span class="narrow-th" aria-hidden="true">Is this card cool?: </span>Yes, of course!</td>
+        <td class="third-column"><span class="narrow-th" aria-hidden="true">Is this card cool?: </span>Yes, why not!</td>
       </tr>
       <tr>
         <th scope="row" class="row-header">How cool is this card?</th>
-        <td>Very cool</td>
-        <td>Very cool</td>
-        <td>Very, very cool</td>
+        <td><span class="narrow-th" aria-hidden="true">How cool is this card?: </span>So cool</td>
+        <td><span class="narrow-th" aria-hidden="true">How cool is this card?: </span>Very cool</td>
+        <td class="third-column"><span class="narrow-th" aria-hidden="true">How cool is this card?: </span>Very, very cool</td>
+      </tr>
+      <tr>
+        <th scope="row" class="row-header">Can I get it today?</th>
+        <td><span class="narrow-th" aria-hidden="true">Can I get it today?: </span><span aria-label="Yes">✔️</span></td>
+        <td><span class="narrow-th" aria-hidden="true">Can I get it today?: </span><span aria-label="Yes">✔️</span></td>
+        <td class="third-column"><span class="narrow-th" aria-hidden="true">Can I get it today?: </span><span aria-label="No">－</span></td>
       </tr>
     </tbody>
   </table>
+</div>
+  
 
-  <!-- <table role="table">
-    <caption>
-      My Hobbies
-    </caption>
-    <thead role="rowgroup">
-      <tr role="row">
-        <th role="columnheader">Name</th>
-        <th role="columnheader">Description</th>
-        <th role="columnheader">Additional Resources</th>
-      </tr>
-    </thead>
-
-
-    <tbody role="rowgroup">
-      <tr role="row">
-        <th role="rowheader">
-          <span aria-hidden="true" class="narrow-th">Name: </span>Playing Soccer
-        </th>
-        <td role="cell">
-          <span aria-hidden="true" class="narrow-th">Description: </span>Soccer is
-          a team sport played between two teams of eleven players with a spherical
-          ball.
-        </td>
-        <td role="cell">
-          <span aria-hidden="true" class="narrow-th">Additional Resources: </span><a
-            href="https://en.wikipedia.org/wiki/Association_football">Wikipedia</a>
-        </td>
-      </tr>
-      <tr role="row">
-        <th role="rowheader">
-          <span aria-hidden="true" class="narrow-th">Name: </span>Dancing
-        </th>
-        <td role="cell">
-          <span aria-hidden="true" class="narrow-th">Description: </span>Dance is
-          a performing art form consisting of purposefully selected sequences of
-          human movement.
-        </td>
-        <td role="cell">
-          <span aria-hidden="true" class="narrow-th">Additional Resources: </span><a
-            href="https://en.wikipedia.org/wiki/Dance">Wikipedia</a>
-        </td>
-      </tr>
-      <tr role="row">
-        <th role="rowheader">
-          <span aria-hidden="true" class="narrow-th">Name: </span>Gardening
-        </th>
-        <td role="cell">
-          <span aria-hidden="true" class="narrow-th">Description: </span>Gardening
-          is the practice of growing and cultivating plants as part of
-          horticulture.
-        </td>
-        <td role="cell">
-          <span aria-hidden="true" class="narrow-th">Additional Resources: </span><a
-            href="https://en.wikipedia.org/wiki/Gardening">Wikipedia</a>
-        </td>
-      </tr>
-    </tbody>
-  </table> -->
-
-
+  
 </body>
 
 </html>
