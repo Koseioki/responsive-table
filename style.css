@@ -41,6 +41,15 @@ table {
     display: none;
     /* display: block; */
   }
+
+  .button-link {
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem 1rem;
+    background-color: lightgreen;
+    border-radius: 0.25rem;
+    border: black 0.0625rem solid;
+  }
   
   @media only screen and (max-width: 600px) { 
   

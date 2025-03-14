@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 
 <head>
   <meta charset="UTF-8">
@@ -12,43 +12,57 @@
 <h1>Responsive table</h1>
 <div class="table-wrapper">
   <table>
-    <caption lang="da">
+    <caption>
       Produktsammenligneren
     </caption>
     <thead>
       <tr>
         <td class="row-header"></td>
-        <th scope="col">Card 1</th>
-        <th scope="col">Card 2</th>
-        <th scope="col" class="third-column">Card 3</th>
+        <th scope="col">Visa/Dankort</th>
+        <th scope="col">MC Standard Debit</th>
+        <th scope="col" class="third-column">MC Platinum Debit</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <th scope="row" class="row-header">Price</th>
-        <td><span class="narrow-th" aria-hidden="true">Price: </span>$10</td>
-        <td><span class="narrow-th" aria-hidden="true">Price: </span>$20</td>
-        <td class="third-column"><span class="narrow-th" aria-hidden="true">Price: </span>$30</td>
+        <th scope="row" class="row-header">Årligt kortgebyr</th>
+        <td><span class="narrow-th" aria-hidden="true">Årligt kortgebyr: </span>250 kr.</td>
+        <td><span class="narrow-th" aria-hidden="true">Årligt kortgebyr: </span>250 kr.</td>
+        <td class="third-column"><span class="narrow-th" aria-hidden="true">Årligt kortgebyr: </span>1.995 kr.</td>
       </tr>
       <tr>
-        <th scope="row" class="row-header">Is this card cool?</th>
-        <td><span class="narrow-th" aria-hidden="true">Is this card cool?: </span>Yes</td>
-        <td><span class="narrow-th" aria-hidden="true">Is this card cool?: </span>Yes, of course!</td>
-        <td class="third-column"><span class="narrow-th" aria-hidden="true">Is this card cool?: </span>Yes, why not!</td>
+        <th scope="row" class="row-header">Aldersgrænse</th>
+        <td><span class="narrow-th" aria-hidden="true">Aldersgrænse: </span>18 år</td>
+        <td><span class="narrow-th" aria-hidden="true">Aldersgrænse: </span>10 år</td>
+        <td class="third-column"><span class="narrow-th" aria-hidden="true">Aldersgrænse: </span>18 år</td>
       </tr>
-      <tr>
+      <!-- <tr>
         <th scope="row" class="row-header">How cool is this card?</th>
         <td><span class="narrow-th" aria-hidden="true">How cool is this card?: </span>So cool</td>
         <td><span class="narrow-th" aria-hidden="true">How cool is this card?: </span>Very cool</td>
         <td class="third-column"><span class="narrow-th" aria-hidden="true">How cool is this card?: </span>Very, very cool</td>
-      </tr>
+      </tr> -->
       <tr>
-        <th scope="row" class="row-header">Can I get it today?</th>
-        <td><span class="narrow-th" aria-hidden="true">Can I get it today?: </span><span aria-hidden="true">✔️</span><span class="sr-only">Yes</span></td>
-        <td><span class="narrow-th" aria-hidden="true">Can I get it today?: </span><span aria-hidden="true">✔️</span><span class="sr-only">Yes</span></td>
-        <td class="third-column"><span class="narrow-th" aria-hidden="true">Can I get it today?: </span><span aria-hidden="true">－</span><span class="sr-only">No</span></td>
+        <th scope="row" class="row-header">Fås med eget design</th>
+        <td><span class="narrow-th" aria-hidden="true">Fås med eget design: </span><span aria-hidden="true">✔️</span><span class="sr-only">Ja</span></td>
+        <td><span class="narrow-th" aria-hidden="true">Fås med eget design: </span><span aria-hidden="true">✔️</span><span class="sr-only">Ja</span></td>
+        <td class="third-column"><span class="narrow-th" aria-hidden="true">Fås med eget design: </span><span aria-hidden="true">－</span><span class="sr-only">Mej</span></td>
       </tr>
     </tbody>
+    <tfoot>
+      <tr>
+        <td class="row-header"></td>
+        <td><a href="/">Læs mere</a></td>
+        <td><a href="/">Læs mere</a></td>
+        <td class="third-column"><a href="/">Læs mere</a></td>
+      </tr>
+      <tr>
+        <td class="row-header"></td>
+        <td><a href="/" class="button-link"><span aria-hidden="true">Bestil Kort</span><span class="sr-only">Bestil Visa/Dankort</span></a></td>
+        <td><a href="/" class="button-link"><span aria-hidden="true">Bestil Kort</span><span class="sr-only">Bestil MC Standard Debit</span></a></td>
+        <td class="third-column"><a href="/" class="button-link"><span aria-hidden="true">Bestil Kort</span><span class="sr-only">Bestil MC Platinum Debit</span></a></td>
+      </tr>
+    </tfoot>
   </table>
 </div>
   
