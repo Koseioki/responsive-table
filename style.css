@@ -53,17 +53,19 @@ td {
 
 @media only screen and (max-width: 48rem) {
 
-
-
-  .narrow-th {
-    display: contents;
-  }
-
-
+  .narrow-th,
   .third-column {
-    position: absolute;
-    left: -100rem;
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border-width: 0;
   }
+
 
   .row-header {
     position: absolute;
