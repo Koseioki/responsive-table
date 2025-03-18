@@ -1,88 +1,79 @@
-body{
+body {
   font-family: Arial;
   line-height: 1.5;
   background-color: #f4f4f4;
 }
 
 table {
-    border-collapse: collapse;
-    width: 100%;
+  border-collapse: collapse;
+  width: 100%;
 
-  }
+}
 
-  .table-wrapper{
-    border: 0.125rem solid lightgrey;
-    background-color: white;
-    padding: 1rem;
-    max-width: 60rem;
+.table-wrapper {
+  border: 0.125rem solid lightgrey;
+  background-color: white;
+  padding: 1rem;
+  max-width: 60rem;
 
-  }
-  caption{
-    text-align: left;
-  }
-  
-  thead th {
-    background-color: lightgreen;
-  }
-  
-  tbody th {
-    background-color: whitesmoke;
-  }
-  
-  th, td {
-    border: 0.0625rem solid grey;
-    text-align: left;
-    padding: 1rem;
-  }
-  
+}
+
+caption {
+  text-align: left;
+}
+
+thead th {
+  background-color: lightgreen;
+}
+
+tbody th {
+  background-color: whitesmoke;
+}
+
+th,
+td {
+  border: 0.0625rem solid grey;
+  text-align: left;
+  padding: 1rem;
+}
+
+.narrow-th {
+  font-weight: bold;
+  display: none;
+}
+
+.button-link {
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem 1rem;
+  background-color: lightgreen;
+  border-radius: 0.25rem;
+  border: black 0.0625rem solid;
+}
+
+@media only screen and (max-width: 48rem) {
+
+
+
   .narrow-th {
-    font-weight: bold;
-    /* background-color: yellow; */
-    display: none;
-    /* display: block; */
+    display: contents;
   }
 
-  .button-link {
-    text-decoration: none;
-    color: black;
-    padding: 0.5rem 1rem;
-    background-color: lightgreen;
-    border-radius: 0.25rem;
-    border: black 0.0625rem solid;
+
+  .third-column {
+    position: absolute;
+    left: -100rem;
   }
-  
-  @media only screen and (max-width: 48rem) { 
-  
-  
-    td, th{
-      /* font-weight: bold; */
-    }
 
-    .narrow-th {
-      display:contents;
-      /* font-weight: normal; */
-    }
+  .row-header {
+    position: absolute;
+    left: -100rem;
 
+  }
 
-    .third-column
-    {
-      position: absolute;
-      left: -100rem;
-    }
-    /* th{
-      display:none
-    }; */
+}
 
-    .row-header{
-      /* display: none; */
-      position: absolute;
-      left: -100rem;
-
-    }
-
- }
-
- .sr-only {
+.sr-only {
   position: absolute;
   width: 1px;
   height: 1px;
