@@ -42,28 +42,32 @@ td {
   display: none;
 }
 
-.button-link {
+/* .button-link {
   text-decoration: none;
   color: black;
   padding: 0.5rem 1rem;
   background-color: lightgreen;
   border-radius: 0.25rem;
   border: black 0.0625rem solid;
-}
+} */
 
 @media only screen and (max-width: 48rem) {
 
-  .narrow-th,
+  .narrow-th {
+    display: contents;
+  }
+
+
   .third-column {
-      position: absolute;
-      width: 1px;
-      height: 1px;
-      padding: 0;
-      margin: -1px;
-      overflow: hidden;
-      clip: rect(0, 0, 0, 0);
-      white-space: nowrap;
-      border-width: 0;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
   }
 
 
